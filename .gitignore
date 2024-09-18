@@ -1,4 +1,6 @@
 
 *.pptx
 *.exe
+*.docx
+*.doc
 .gitattributes
