@@ -136,7 +136,7 @@ void LinkedList::deleteAfter(int value) {
     }
     if (temp != NULL && temp->next != NULL) {
         Node* nodeToDelete = temp->next;
-        temp->next = temp->next->next;
+        temp->next = temp->next->next;// nodeToDelete->next
         delete nodeToDelete;
     } else {
         cout << "Node with value " << value << " not found or no node to delete after it." << endl;
